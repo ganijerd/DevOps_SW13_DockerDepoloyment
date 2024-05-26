@@ -6,7 +6,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-    res.send('Hoi Erxhan Semi Auto ---> ');
+    res.send('Hoi Erxhan Semi Auto ---> A');
 });
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
